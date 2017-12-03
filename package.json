@@ -4,8 +4,7 @@
   "description": "Loader button directive for Angularjs",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install",
-    "start": "./node_modules/.bin/lite-server"
+    "postinstall": "./node_modules/.bin/bower install"
   },
   "repository": {
     "type": "git",

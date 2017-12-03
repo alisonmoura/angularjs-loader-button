@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Angularjs Loader Button - HTML Example</title>
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../src/angularjs-loader-button.js"></script>
+    <script>   
+        angular.module('app',['angularjsLoaderButton'])
+        .controller('homeController', function($scope, $http){
+            $scope.title = "Angularjs Button Loader HTML Example";
+            $scope.fetchDatas = function(){
+                return $http.get('https://randomuser.me/api/')
+                .then(function(response){
+                    $scope.users = response.data.results;
+                }, function(response){
+                    $scope.users = response.data.results;
+                });
+            }
+        })
+        .filter('capitalize', function() {
+            return function(input) {
+                return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
+            }
+        });
+    </script>
+</head>
+<body ng-controller="homeController">
+    <h1>{{title}}</h1>
+    <loader-button text="Random user" load="fetchDatas()" ></loader-button>
+    <div ng-repeat="user in users">
+        <p>{{user.name.title | capitalize}} {{user.name.first | capitalize}} {{user.name.last | capitalize}}</p>
+        <img ng-src="{{user.picture.large}}">
+    </div>
+</body>
+</html>
