@@ -1,0 +1,42 @@
+{
+  "name": "angularjs-loader-button",
+  "version": "1.0.0",
+  "description": "Loader button directive for Angularjs",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/bower install",
+    "start": "./node_modules/.bin/lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alisonmoura/angularjs-loader-button.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angularjs",
+    "button",
+    "angualrjs",
+    "loading",
+    "angularjs",
+    "loader",
+    "angularjs",
+    "loading",
+    "button",
+    "angularjs",
+    "loader",
+    "button"
+  ],
+  "author": "Alison Moura <alison.oghino@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alisonmoura/angularjs-loader-button/issues"
+  },
+  "homepage": "https://github.com/alisonmoura/angularjs-loader-button#readme",
+  "devDependencies": {
+    "bower": "1.8.2",
+    "del": "3.0.0",
+    "gulp": "3.9.1",
+    "gulp-sourcemaps": "2.6.1",
+    "lite-server": "2.3.0"
+  }
+}

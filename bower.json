@@ -1,0 +1,32 @@
+{
+  "name": "angularjs-loader-button",
+  "description": "Loader button directive for Angularjs",
+  "main": "index.js",
+  "authors": [
+    "Alison Moura <alison.oghino@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angularjs",
+    "angularjs",
+    "button",
+    "angualrjs",
+    "loading",
+    "angularjs",
+    "loader",
+    "angularjs",
+    "loading",
+    "button",
+    "angularjs",
+    "loader",
+    "button"
+  ],
+  "homepage": "https://github.com/alisonmoura/angularjs-loader-button#README",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
