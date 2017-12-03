@@ -4,7 +4,8 @@
   "description": "Loader button directive for Angularjs",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/bower install"
+    "postinstall": "./node_modules/.bin/bower install",
+    "gulp": "./node_modules/.bin/gulp"
   },
   "repository": {
     "type": "git",
